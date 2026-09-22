@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://corpo-saude.vercel.app/sitemap.xml
