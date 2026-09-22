@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://corpo-saude.vercel.app/sitemap.xml
+Sitemap: https://corpobom.vercel.app/sitemap.xml
