@@ -78,6 +78,16 @@ nav a:hover{color:var(--blue)}
 .cta-band p{margin:0;font:900 clamp(40px,5.2vw,76px)/.82 var(--display)}
 .cta-band em{font-style:italic;color:var(--blue)}
 .cta-band .button{background:var(--ink);color:#fff;flex:none}
+.visit{display:grid;grid-template-columns:1fr 1fr;background:var(--off);border-top:1px solid var(--line)}
+.visit-info{padding:clamp(65px,8vw,110px) clamp(24px,6vw,90px)}
+.visit-info h2{font:900 clamp(57px,6vw,91px)/.78 var(--display);letter-spacing:-.045em;margin:0;text-transform:uppercase}
+.visit-info h2 em{font-style:italic;color:var(--blue)}
+.visit-info>p{font-size:17px;line-height:1.45;color:#596477;max-width:430px}
+.visit-actions{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0}
+.visit-note{font-size:14px;font-weight:700;color:#596477}
+.visit-note a{color:var(--blue)}
+.visit-map{position:relative;min-height:440px}
+.visit-map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .faq{display:grid;grid-template-columns:.85fr 1.15fr;gap:10vw;padding:105px max(5vw,24px)}
 .faq>div>p:last-child{color:#596477;line-height:1.45;max-width:350px}
 .questions{border-top:2px solid var(--ink)}
@@ -105,12 +115,14 @@ footer>a{font-size:13px;font-weight:700}
 .hero-visual{height:410px;min-height:0}
 .hero-visual:after{background:linear-gradient(0deg,rgba(0,44,160,.6),transparent 60%)}
 .offer,.modalities,.faq{padding-top:75px;padding-bottom:75px}
-.offer-cards,.statement,.faq{grid-template-columns:1fr}
+.offer-cards,.statement,.faq,.visit{grid-template-columns:1fr}
 .offer-card.focus{transform:none;box-shadow:9px 9px 0 var(--yellow)}
 .statement{min-height:0}
 .statement-image{height:430px}
 .statement-image span{font-size:90px;right:22px;bottom:35px}
 .statement-copy{padding:70px 24px}
+.visit-info{padding:70px 24px}
+.visit-map{min-height:0;height:340px}
 .modality-grid{grid-template-columns:1fr}
 .modality{height:330px}
 .cta-band,footer{display:block}
