@@ -27,6 +27,7 @@ nav a:hover{color:var(--blue)}
 .button span{font-size:22px}
 .button-yellow{background:var(--yellow);color:var(--ink)}
 .button-blue{background:var(--blue);color:#fff}
+.button-wa{background:#25d366;color:#fff}
 .text-link{font-size:13px;font-weight:800;text-transform:uppercase}
 .text-link span{color:var(--yellow);font-size:20px;margin-left:6px}
 .hero-visual{position:relative;overflow:hidden;min-height:560px}
