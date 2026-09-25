@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://corpo-exemplo-ficticio.vercel.app/sitemap.xml
+Sitemap: https://corpo-exemplo-ficticio-pxzys-projects.vercel.app/sitemap.xml
