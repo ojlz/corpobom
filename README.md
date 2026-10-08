@@ -1,11 +1,11 @@
-# Corpo Academia (projeto fictício)
+# CorpoBom (projeto fictício)
 
 > **Aviso:** site 100% fictício criado para portfólio. Nome, cidade
 > (Porto Fictício/EX), telefone `(00) 90000-0003`, WhatsApp, preços,
 > coordenadas e mapas são inventados. Nenhum dado é real e não representa
 > nenhuma empresa.
 
-🌐 **Demo no ar:** https://corpo-ex.vercel.app
+🌐 **Demo no ar:** https://corpobom.vercel.app
 
 Landing page de uma academia fictícia: musculação, spinning, funcional,
 avaliação física, planos, depoimentos, FAQ e aula experimental via WhatsApp.
@@ -32,4 +32,4 @@ npx serve .
 
 ## Deploy
 
-Hospedado na Vercel (projeto `corpo-ex`). Push na branch principal = redeploy.
+Hospedado na Vercel. Push na branch principal = redeploy.
